@@ -1,20 +1,20 @@
-# Sentiment-Aware AI Chatbot 🤖
+# Sentiment-Aware AI Chatbot 
 
 A local, privacy-focused Generative AI chatbot that detects user sentiment and adapts its conversational tone in real-time. This project uses TinyLlama for text generation and DistilBERT for sentiment analysis, running entirely on your local machine.
 
-## 🌟 Key Features
+## Key Features
 - **Sentiment Awareness**: Detects Positive, Negative, or Neutral emotions to guide AI responses.
 - **Local-First**: Runs offline using TinyLlama-1.1B; no API keys or cloud costs required.
 - **Privacy-Centric**: All conversations and model inferences stay on your device.
 - **Modern UI**: Built with Streamlit for a clean, responsive chat experience.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language**: Python 3.13+
 - **LLM**: TinyLlama-1.1B-Chat-v1.0
 - **Sentiment Model**: DistilBERT (SST-2)
 - **Frameworks**: Transformers, PyTorch, Streamlit
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone & Setup
 ```bash
@@ -38,7 +38,7 @@ Launch the Streamlit interface:
 streamlit run app.py
 ```
 
-## 📂 Project Structure
+## Project Structure
 ```text
 sentiment-chatbot/
 ├── app.py              # Main Streamlit application
@@ -48,5 +48,3 @@ sentiment-chatbot/
 └── venv/               # Virtual environment (ignored by git)
 ```
 
-## 📝 License
-MIT License
