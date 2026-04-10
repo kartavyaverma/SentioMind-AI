@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+Include/
+
+# Model weights (Too large for Git)
+models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.bin
+*.safetensors
+*.model
+*.json
